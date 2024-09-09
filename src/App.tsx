@@ -30,15 +30,16 @@ function App() {
    * Examples on how to manipulate your image on the fly.
    * For more information visit our docs:
    * https://cloudinary.com/documentation/image_transformations
+   * 
    */
-  const image = cld.image('woman-blackdress-stairs.jpg').resize(fill().height(250));
-  const image1 = cld.image('woman-blackdress-stairs.jpg').resize(
+  const image = cld.image('NAME OF THE FILE YOU UPLOADED.jpg |.png |.gif | etc').resize(fill().height(250));
+  const image1 = cld.image('NAME OF THE FILE YOU UPLOADED.jpg |.png |.gif | etc').resize(
     thumbnail()
       .width(200)
       .height(200)
       .gravity(focusOn(face()))
   ).roundCorners(max()).delivery(format(auto()));
-  const image2 = cld.image('woman-blackdress-stairs.png').resize(fill().height(250).aspectRatio("1.0"))
+  const image2 = cld.image('NAME OF THE FILE YOU UPLOADED.jpg |.png |.gif | etc').resize(fill().height(250).aspectRatio("1.0"))
   .border(solid(5, "lightblue"));
 
   return (
