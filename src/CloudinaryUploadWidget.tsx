@@ -5,6 +5,7 @@ function CloudinaryUploadWidget({ uwConfig }: { uwConfig: unknown }) {
   const [uploadProgress, setUploadProgress] = useState<string>('');
   /**
    * Load Cloudinary Upload Widget Script
+   * https://cloudinary.com/documentation/upload_widget_reference
    */
   useEffect(() => {
     if (!loaded) {

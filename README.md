@@ -35,9 +35,9 @@ Before you begin, ensure you have the following installed:
 
 ## Run the App
 
-1. Add your keys to the `.env` file
-2. In your terminal run `npm i` to install all the dependencies
-3. In your terminal run `npm run dev` to run the frontend
+1. Rename your `.env.example` to `.env` and add your keys to the `.env` file.
+2. In your terminal run `npm i` to install all the dependencies.
+3. In your terminal run `npm run dev` to run the frontend.
 
 ## Cloudinary Transformations
 Cloudinary's dynamic URL transformations enable you to programmatically generate multiple variations of your high quality original images on the fly, without the need for graphic designers and fancy editing tools.
