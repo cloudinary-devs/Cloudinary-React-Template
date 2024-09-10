@@ -13,12 +13,6 @@ import { solid } from "@cloudinary/url-gen/actions/border";
 
 function App() { 
 
-  const uwConfig = {
-    cloudName: "react-template",
-    uploadPreset: "react-template",
-    multiple: true,
-  };
-
   const cld = new Cloudinary({
     cloud: {
       cloudName: import.meta.env.VITE_CLOUD_NAME
@@ -44,7 +38,7 @@ function App() {
 
   return (
     <div>
-      <CloudinaryUploadWidget uwConfig={uwConfig}/>
+      <CloudinaryUploadWidget/>
       <p>Example on how to use the Image</p>
       <AdvancedImage cldImg={image}  plugins={[placeholder()]}/>
       <AdvancedImage cldImg={image1}  plugins={[placeholder()]}/>
