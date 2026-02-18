@@ -19,6 +19,25 @@
 
 # Cloudinary React Template
 
+ ⚠️ **Deprecated Template Notice**
+>
+> This React template is now deprecated and is no longer actively maintained.
+>
+> We recommend using the new and improved **Create Cloudinary React** starter instead:
+>
+> 👉 https://github.com/cloudinary-devs/create-cloudinary-react
+>
+> The new starter provides:
+> - A modern, production-ready React setup
+> - Improved Cloudinary integration patterns
+> - Better defaults and developer experience
+> - AI-assisted development support
+>
+> Please use the new starter for all new projects.
+
+<br>
+<br>
+
 This repository provides a ready-to-use template for integrating the Cloudinary widget into your React project. It includes all the essential components and setup needed to start working with Cloudinary, simplifying the process of adding Cloudinary’s powerful image and video management capabilities to your application.
 
 Additionally, the repo features examples demonstrating how to perform image transformations using the Cloudinary React SDK, giving you a solid foundation to build upon and customize for your specific needs.
